@@ -48,12 +48,6 @@ main {
     font-size: 1.8rem;
 }
 
-.logo h1 {
-    padding-top: 30px;
-    font-size: 2rem;
-    font-weight: 500;
-}
-
 .heading-paragraph {
     font-size: 1rem;
     line-height: 25px;
@@ -65,10 +59,16 @@ span.heading-colour {
 
 section {
     margin: 0 auto;
-    padding-top: 100px;
+    padding-top: 65px;
     text-align: center;
     width: 87%;
   }
+
+  .logo h1 {
+    padding-top: 50px;
+    font-size: 2rem;
+    font-weight: 500;
+}
 
 section h2 {
     font-weight: 400;
@@ -76,6 +76,17 @@ section h2 {
   }
 
 img {
-    width: 200px;
-    max-width: 70%;
+    width: 140px;
+    height: 98px;
+    max-width: 90%;
+    border-radius: 20px;
+    filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
+    padding-bottom: 10px;
+}
+
+.grid {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 35px;
 }
