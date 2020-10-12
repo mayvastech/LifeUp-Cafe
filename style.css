@@ -48,6 +48,12 @@ main {
     font-size: 1.8rem;
 }
 
+.logo h1 {
+    padding-top: 30px;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
 .heading-paragraph {
     font-size: 1rem;
     line-height: 25px;
@@ -63,3 +69,13 @@ section {
     text-align: center;
     width: 87%;
   }
+
+section h2 {
+    font-weight: 400;
+    color: #038400;
+  }
+
+img {
+    width: 200px;
+    max-width: 70%;
+}
