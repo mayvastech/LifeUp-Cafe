@@ -1,3 +1,5 @@
+/* Mobile-first design */
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +8,7 @@
 
 html {
     scroll-behavior: smooth;
-  }
+}
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -45,7 +47,6 @@ main {
 
 .logo {
     color: #8D3F34;
-    font-size: 1.8rem;
 }
 
 .heading-paragraph {
@@ -59,13 +60,13 @@ span.heading-colour {
 
 section {
     margin: 0 auto;
-    padding-top: 65px;
+    padding-top: 95px;
     text-align: center;
     width: 87%;
-  }
+}
 
   .logo h1 {
-    padding-top: 50px;
+    padding-top: 40px;
     font-size: 2rem;
     font-weight: 500;
 }
@@ -73,7 +74,8 @@ section {
 section h2 {
     font-weight: 400;
     color: #038400;
-  }
+    text-shadow: 0px 1px 3px rgba(75, 75, 75, 0.4);
+}
 
 img {
     width: 140px;
@@ -81,11 +83,10 @@ img {
     max-width: 90%;
     border-radius: 20px;
     filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
-    padding-bottom: 10px;
 }
 
 .grid {
-    margin-top: 30px;
+    margin-top: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 35px;
@@ -93,7 +94,49 @@ img {
 
 .footer {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 70px;
     padding: 8px 0;
     background-color: rgba(202, 131, 66, 0.4);
+}
+
+/* Tablet design */
+@media screen and (min-width: 760px){
+
+    .nav-links a {
+        font-size: 1.3rem;
+        padding: 1em 0;
+    }
+
+    .logo h1 {
+        color: #8D3F34;
+        font-size: 2.5rem;
+    }
+
+    .heading-paragraph {
+        font-size: 1.2rem;
+        line-height: 25px;
+    }
+
+    section h2 {
+        font-size: 1.7rem;
+    }
+
+    img {
+        width: 220px;
+        height: 158px;
+        max-width: 100%;
+        border-radius: 23px;
+        filter: drop-shadow(2px 4px 5px rgba(0, 0, 0, 0.5));
+
+    }
+
+    .grid {
+        margin-top: 50px;
+        row-gap: 65px;
+    }
+
+    .food-group p {
+        font-size: 1.2rem;
+        padding-top: 20px;
+    }
 }
