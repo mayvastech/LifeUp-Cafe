@@ -196,8 +196,9 @@ img:hover {
     }
 
 
-    .nav-links .nav-item :hover {
+    .nav-links :hover {
         color: rgb(134, 211, 134);
+        font-weight: 900;
     }
     
     .heading-paragraph p {
