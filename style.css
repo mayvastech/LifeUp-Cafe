@@ -22,7 +22,10 @@ nav {
 }
 
 i {
-    position: relative;
+    color: rgb(189, 167, 107);
+}
+
+i a {
     padding: 0.5em 0;
 }
 
@@ -49,9 +52,18 @@ main {
     color: #8D3F34;
 }
 
+h1 {
+    font-size: 1.6rem;
+}
+
 .heading-paragraph {
     font-size: 1rem;
-    line-height: 25px;
+    letter-spacing: 0.1rem;
+    color: maroon;
+}
+
+.heading-paragraph p {
+    line-height: 1.5rem;
 }
 
 span.heading-colour {
@@ -114,6 +126,10 @@ img:hover {
 /* Tablet design */
 @media screen and (min-width: 760px){
 
+    .heading-paragraph p {
+        line-height: 1.8rem;
+    }
+
     .nav-links a {
         font-size: 1.1rem;
         padding: 1em 0;
@@ -158,6 +174,16 @@ img:hover {
 /* Desktop design */
 @media screen and (min-width: 1600px){
 
+    .nav-links .nav-item :hover {
+        color: rgb(134, 211, 134);
+        font-size: 1.3rem;
+    }
+    
+
+    .heading-paragraph p {
+        line-height: 2rem;
+    }
+
     img {
         width: 380px;
         height: 290px;
@@ -169,6 +195,12 @@ img:hover {
         grid-template-columns: 1fr 1fr 1fr;
         margin-top: 75px;
         row-gap: 80px;
+    }
+
+    .food-group p {
+        font-size: 1.2rem;
+        padding-top: 20px;
+        letter-spacing: 0.2rem;
     }
 
     section {
