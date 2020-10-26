@@ -63,7 +63,7 @@ h1 {
 .heading-paragraph {
     font-size: 1rem;
     letter-spacing: 0.1rem;
-    color: maroon;
+    color: rgb(128, 0, 0);
 }
 
 .heading-paragraph p {
@@ -127,7 +127,7 @@ img:hover {
 }
 
 .footer p {
-    color: teal;
+    color: rgb(0, 128, 128);
 }
 
 .footer-span {
