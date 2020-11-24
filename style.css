@@ -181,6 +181,7 @@ img:hover {
     .food-group p {
         font-size: 1.2rem;
         padding-top: 20px;
+        letter-spacing: 0.1rem;
     }
 }
 
