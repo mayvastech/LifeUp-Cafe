@@ -113,6 +113,12 @@ img:hover {
     row-gap: 35px;
 }
 
+.food-group p {
+    font-size: 1rem;
+    padding-top: 10px;
+    letter-spacing: 0.1rem;
+}
+
 .food-group a {
     text-decoration: none;
     color: rgb(155, 48, 48);
@@ -231,5 +237,7 @@ img:hover {
 
     .footer {
         margin-top: 230px;
+        padding: 15px 0;
+        font-weight: 500;
     }
 }
